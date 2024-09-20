@@ -297,7 +297,7 @@ def kinet2pcb(netlist_origin, brd_filename, fp_lib_dirs=None):
     pcbnew.Refresh()
 
     # Place the board parts into non-overlapping areas that follow the design hierarchy.
-    hierplace.hier_place(brd)
+    #hierplace.hier_place(brd)
 
     # Save the PCB into the KiCad PCB file.
     pcbnew.SaveBoard(brd_filename, brd)
